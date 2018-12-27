@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  font-family: '微軟正黑體';
+}
+
+.wrapper {
+  background: url(https://www.sec.ntpc.edu.tw/Content/images/bk.jpg) top center repeat-x;
+}
+
+.wrapper > .container {
+  background-color: white;
+  border-top-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  padding: 40px 20px;
+  -webkit-box-shadow: 6px -6px 10px rgba(26, 26, 102, 0.05);
+          box-shadow: 6px -6px 10px rgba(26, 26, 102, 0.05);
+  margin-top: 20px;
+}
+
+.NewsTab {
+  padding-left: 40px;
+}
+
+.boxborder {
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  display: block;
+  font-size: 14px;
+  padding: 5px 15px 5px 0px;
+  background: #fefefe;
+}
+
+.boxborder > span {
+  margin-left: -1px;
+  padding: 10px;
+  background: #79d5b3;
+  color: white;
+}
+
+.boxborder > p {
+  display: inline;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */
