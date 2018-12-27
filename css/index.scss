@@ -1,5 +1,5 @@
 body{
-    font-family: '微軟正黑體';
+    font-family: "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "黑體-繁", 'Arial', sans-serif;
 }
 .wrapper{
     background:url(https://www.sec.ntpc.edu.tw/Content/images/bk.jpg) top center repeat-x;
@@ -37,4 +37,20 @@ body{
     display: inline;
     padding: 10px;
 }
+
+
+
+@media (max-width: 768px){
+    .navbar-brand>img{
+        width: 150px;
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .navbar-brand>img{
+        width: 300px;
+    } 
+}
+
 
