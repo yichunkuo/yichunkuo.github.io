@@ -1,6 +1,7 @@
 @charset "UTF-8";
-body {
+h1, h2, h3, h4 {
   font-family: "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "黑體-繁", 'Arial', sans-serif;
+  font-weight: 400;
 }
 
 .wrapper {
@@ -19,6 +20,11 @@ body {
 
 .NewsTab {
   padding-left: 40px;
+}
+
+.dropdown-toggle {
+  font-weight: 800 !important;
+  font-size: 1.5rem !important;
 }
 
 .boxborder {
@@ -52,6 +58,13 @@ body {
 @media (min-width: 1200px) {
   .navbar-brand > img {
     width: 300px;
+  }
+  #logo-header {
+    margin-left: 40px;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    -webkit-box-shadow: 6px -6px 10px rgba(26, 26, 102, 0.05);
+            box-shadow: 6px -6px 10px rgba(26, 26, 102, 0.05);
   }
 }
 /*# sourceMappingURL=index.css.map */
