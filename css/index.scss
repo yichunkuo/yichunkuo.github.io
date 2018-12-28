@@ -1,5 +1,6 @@
-body{
+h1,h2,h3,h4{
     font-family: "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "黑體-繁", 'Arial', sans-serif;
+    font-weight: 400;
 }
 .wrapper{
     background:url(https://www.sec.ntpc.edu.tw/Content/images/bk.jpg) top center repeat-x;
@@ -17,6 +18,10 @@ body{
 .NewsTab{
     padding-left:40px;
 
+}
+.dropdown-toggle{
+    font-weight: 800 !important;
+    font-size: 1.5rem !important;
 }
 
 .boxborder {
@@ -51,6 +56,16 @@ body{
     .navbar-brand>img{
         width: 300px;
     } 
+    #logo-header{
+        margin-left:40px;
+        border-top-left-radius:50px !important;
+        border-top-right-radius:50px !important;
+        box-shadow:6px -6px 10px rgba(10%,10%,40%,0.05);    
+    }
 }
+
+
+
+
 
 
